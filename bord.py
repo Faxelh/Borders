@@ -31,15 +31,15 @@ try:
 except:
     _cls()
     print("\033[1;96m Configuration requise pour l'installation....\033[1;97m\n")
-    os.system('sudo pip install requests')
-    os.system('sudo pip install mechanize')
+    os.system('pip install requests')
+    os.system('pip install mechanize')
     os.system('sudo apt-get install python-pip3')
     os.system('sudo apt-get install ruby')
     os.system('sudo gem install lolcat')
     os.system('sudo apt-get install toilet')
     os.system('sudo apt-get install figlet')
     os.system('sudo apt-get install cowsay')
-    os.system('sudo python3 -m pip install --upgrade pip')
+    os.system('python3 -m pip install --upgrade pip')
     _cls()
 ####################################################################################################
 # -Automatisation-#
