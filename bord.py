@@ -33,7 +33,6 @@ except:
     print("\033[1;96m Configuration requise pour l'installation....\033[1;97m\n")
     os.system('pip install requests')
     os.system('pip install mechanize')
-    os.system('sudo apt-get install python-pip3')
     os.system('sudo apt-get install ruby')
     os.system('sudo gem install lolcat')
     os.system('sudo apt-get install toilet')
